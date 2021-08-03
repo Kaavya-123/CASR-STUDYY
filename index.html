@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="col-xs-12 header_div" style="font-size: 40; color: darkturquoise;">
+        CASE STUDY 
+        </div>
+        <div class="text_images_and_result main_div">
+            <div class="results_i_guess">
+                <li>
+                    <b style="color: rgb(207, 113, 230); font-size: 20;">1.Test Image-</b><img src="bottle.jpg" class="img-responsive">
+                </li>
+                <h5>Output on <b>Image Recognize</b> -
+                    <span>No results found ...</span>
+                </h5>
+
+                <h5>Output on <b>MobileNet Model</b> -
+                    <span>Microphone</span>
+                </h5>
+
+                <div class="results">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>NONE</h4>
+                </div>
+            </div>
+
+            <div class="results_i_guess">
+                <li>
+                    <b style="color: rgb(207, 113, 230); font-size: 20;">2.Test Image-</b><img src="highlighter.jpg" class="img-responsive">
+                </li>
+                <h5>Output on <b>Image Recognize</b> -
+                    <span>Chair</span>
+                </h5>
+
+                <h5>Output on <b>MobileNet Model</b> -
+                    <span>swab</span>
+                </h5>
+
+                <div class="results">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>NONE</h4>
+                </div>
+            </div>
+
+            <div class="results_i_guess">
+                <li>
+                    <b style="color: rgb(207, 113, 230); font-size: 20;">3.Test Image-</b><img src="book.jpg" class="img-responsive">
+                </li>
+                <h5>Output on <b>Image Recognize</b> -
+                    <span>Diary</span>
+                </h5>
+
+                <h5>Output on <b>MobileNet Model</b> -
+                    <span>Notebook</span>
+                </h5>
+            </div>
+            <div class="results_footer_div">
+                <h4>Result - </h4>
+                <hr>
+                <h4>BOTH</h4>
+            </div>
+        </div>
+</center>
+</body>
